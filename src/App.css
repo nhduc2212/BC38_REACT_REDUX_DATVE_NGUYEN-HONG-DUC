@@ -13,13 +13,13 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1000px;
+  height: 2000px;
   width: 100%;
 }
 
 .body-cover{
   position: absolute;
-  height: 1000px;
+  height: 2000px;
   width: 100%;
   background-color: rgba(1,1,1,0.5);
 }
