@@ -1,0 +1,8 @@
+.review-zone h3, .review-zone h4 {
+    color: white;
+}
+
+.seat.selected.review{
+    margin-right: 10px;
+}
+

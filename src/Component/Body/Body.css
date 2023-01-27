@@ -1,0 +1,41 @@
+.body-container{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    max-width: 1600px;
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+.functional-zone{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40%;
+    max-width: 1280px;
+}
+.btn-confirm{
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: -30px;
+    padding: 10px 20px;
+    background: linear-gradient(90deg, rgba(61, 63, 38, 0.767) 0%, rgba(121, 9, 28, 0.562) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+    font-weight: bolder;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(255,255,255,0.6);
+    cursor: pointer;
+}
+
+#info-warning{
+    position: absolute;
+    bottom: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: red;
+    font-weight: 600;
+    text-shadow: 10px 10px 10px rgba(255, 255, 255, 0.7);
+}

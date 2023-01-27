@@ -1,11 +1,29 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+.body-inner-container{
+  background-image: url(../public/video27_dat_ve_phim/bgmovie.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  width: 100%;
+}
+
+.body-cover{
+  position: absolute;
+  height: 1000px;
+  width: 100%;
+  background-color: rgba(1,1,1,0.5);
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
